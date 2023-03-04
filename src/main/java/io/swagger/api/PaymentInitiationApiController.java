@@ -1,6 +1,5 @@
-package io.swagger.controller;
+package io.swagger.api;
 
-import io.swagger.api.PaymentInitiationApi;
 import io.swagger.model.InitiatePaymentInitiationTransactionRequest;
 import io.swagger.model.InitiatePaymentInitiationTransactionResponse;
 import io.swagger.model.RetrieveComplianceResponse;
