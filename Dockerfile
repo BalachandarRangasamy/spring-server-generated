@@ -1,7 +1,7 @@
 FROM anapsix/alpine-java
 
-COPY target/spring-boot-containerized-0.0.1-SNAPSHOT.jar /home/spring-boot-containerized-0.0.1-SNAPSHOT.jar
+COPY target/swagger-spring-1.0.0.jar /home/swagger-spring-1.0.0.jar
 
 EXPOSE 8080
 
-CMD ["java", "-jar", "/home/spring-boot-containerized-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "/home/swagger-spring-1.0.0.jar"]
